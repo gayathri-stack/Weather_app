@@ -37,23 +37,23 @@ const getWeather=async (city)=>
         tempvalue.textContent=Math.round(feels_like-273);
         if(id<300 && id>200)
         {
-            tempicon.src="./icons/thunderstorm.svg"
+            tempicon.src="file:///C:/Users/gayathri/Dropbox/PC/Downloads/icons/thunderstrom.svg.svg"
         }
         else if(id<600&& id>500)
         {
-            tempicon.src="./icons/rain.svg"
+            tempicon.src="file:///C:/Users/gayathri/Dropbox/PC/Downloads/icons/rain.svg.svg"
         }
         else  if(id<700 && id>600)
         {
-            tempicon.src="./icons/snow.svg"
+            tempicon.src="file:///C:/Users/gayathri/Dropbox/PC/Downloads/icons/snow.svg.svg"
         }
         else  if(id<800 && id>700)
         {
-            tempicon.src="./icons/clouds.svg"
+            tempicon.src="file:///C:/Users/gayathri/Dropbox/PC/Downloads/icons/clouds.svg.svg"
         }
         else if(id==800)
         {
-            tempicon.src="./icons/clouds-and-sun.svg"
+            tempicon.src="file:///C:/Users/gayathri/Dropbox/PC/Downloads/icons/clouds-and-sun.svg.svg"
         }
 
 
@@ -161,3 +161,15 @@ if(navigator.geolocation)
 
 
 })
+
+
+
+
+
+
+
+
+
+
+
+
